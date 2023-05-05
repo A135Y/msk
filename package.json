@@ -1,0 +1,25 @@
+{
+  "name": "msk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^17.0.0",
+    "@cypress/webpack-preprocessor": "^5.17.1",
+    "cucumber": "^6.0.7",
+    "cypress": "^12.11.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "dependencies": {
+    "@cypress/browserify-preprocessor": "^3.0.2",
+    "cypress-axe": "^1.4.0",
+    "gherkin": "^9.0.0",
+    "path-browserify": "^1.0.1"
+  }
+}
